@@ -19,10 +19,18 @@ Diagram of spatial scale formula for 2 x 2 pooling layers. The green rectangle d
 ### Features
 The module that implements the functionalities of computing spatial scales and overlaps for different layers is `spatial.py`. In order to compute the spatial
 scale profile for a CNN, first, you need to construct its layer configuration list and then pass it to the `process` method of `spatial.py`. You can use
-the `ResNet-50` (the method `resnet_50` in `spatial.py`) as an example to create your own layer configuration. 
-![Image description](resnet-50.png)
+the `ResNet-50` (the method `resnet_50` in `spatial.py`) as an example to create your own layer configuration.
 
-![Image description](dilated.png)
+<p align="center"> 
+<img src="resnet-50.png">
+</p>
+<p align="center">
+Spatial scale profile of ResNet-50.
+</p>
+
+As of now, the spatial scale and overlap of the following layers have been added to this repo: `3x3 convolutional layer with stride 1`, `2x2 pooling layer with stride 2`, `3x3 convolutional layer with stride 2`, `3x3 pooling layer with stride 2`, `1x1 convolutional layer with stride 2`, `1x1 convolutional layer with stride 1` and `dilated 3x3 convolutional layer with stride 1 and dilation rate of 2`.
+
+
 
 
 

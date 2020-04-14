@@ -67,7 +67,7 @@ def spatial_overlap_conv_3x3_stride_2(p):
 
 def spatial_scale_pooling_3x3_stride_2(s, p):
     """
-    This method computes the spatial scale of 3x3 pooling layer with stride 1 in terms of its input feature map's
+    This method computes the spatial scale of 3x3 pooling layer with stride 2 in terms of its input feature map's
     spatial scale value (s) and spatial overal value (p).
     """
 
@@ -75,7 +75,7 @@ def spatial_scale_pooling_3x3_stride_2(s, p):
 
 def spatial_overlap_pooling_3x3_stride_2(p):
     """
-    This method computes the spatial overlap of 3x3 convolutional layer with stride 2 in terms of its input feature map's
+    This method computes the spatial overlap of 3x3 pooling layer with stride 2 in terms of its input feature map's
     spatial overal value (p).
     """
 
