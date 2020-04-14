@@ -11,9 +11,10 @@ maps with the object dimensions in training datasets.
 
 <p align="center"> 
 <img src="2x2pooling.png">
+</p>
+<p align="center"> 
 Diagram of spatial scale of 2x2 pooling layer.
 </p>
-
 
 ### Features
 The module that implements the functionalities of computing spatial scales and overlaps for different layers is `spatial.py`.
