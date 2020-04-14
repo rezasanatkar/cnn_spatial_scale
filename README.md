@@ -12,8 +12,8 @@ maps with the object dimensions in training datasets.
 <p align="center"> 
 <img src="2x2pooling.png">
 </p>
-<p align="center"> 
-Diagram of spatial scale of 2x2 pooling layer.
+<p align="center">
+Diagram of spatial scale formula for 2 x 2 pooling layers. The green rectangle denotes the input image; the brown rectangle denotes the input feature map to the pooling later and the output feature map of the pooling layer is denoted by the blue rectangle. The spatial scale of the orange output entry is the union of the 4 regions marked on the input image which are corresponding to the spatial scales of the 4 neighboring input feature map entries.
 </p>
 
 ### Features
