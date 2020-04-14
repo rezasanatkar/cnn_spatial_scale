@@ -8,16 +8,12 @@ researchers that are involved in designing CNN architectures and are tired of bl
 to improve the performance of their models, and instead, prefer from the early steps of design process, to match the spatial scale profiles of feature
 maps with the object dimensions in training datasets.
 
+
 <p align="center"> 
 <img src="2x2pooling.png">
+Diagram of spatial scale of 2x2 pooling layer.
 </p>
 
-<p align="center">
-  <img ''>
-</p>
-<p align="center">
-!['test'](2x2pooling.png)
-</p>
 
 ### Features
 The module that implements the functionalities of computing spatial scales and overlaps for different layers is `spatial.py`.
