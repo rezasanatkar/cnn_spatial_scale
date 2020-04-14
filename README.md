@@ -9,6 +9,9 @@ to improve the performance of their models, and instead, prefer from the early s
 maps with the object dimensions in training datasets.
 
 <p align="center">
+  <img 2x2pooling.png>
+</p>
+<p align="center">
 !['test'](2x2pooling.png)
 </p>
 
