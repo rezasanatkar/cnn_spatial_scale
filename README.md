@@ -17,7 +17,9 @@ Diagram of spatial scale formula for 2 x 2 pooling layers. The green rectangle d
 </p>
 
 ### Features
-The module that implements the functionalities of computing spatial scales and overlaps for different layers is `spatial.py`.
+The module that implements the functionalities of computing spatial scales and overlaps for different layers is `spatial.py`. In order to compute the spatial
+scale profile for a CNN, first, you need to construct its layer configuration list and then pass it to the `process` method of `spatial.py`. You can use
+the `ResNet-50` (the method `resnet_50` in `spatial.py`) as an example to create your own layer configuration. 
 ![Image description](resnet-50.png)
 
 ![Image description](dilated.png)
