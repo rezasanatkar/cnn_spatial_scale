@@ -1,7 +1,7 @@
 <h3 align="center">
 <p>Analysis and Applications of Multi-Scale CNN Feature Maps
 </h3>
-The goal of this repo and its corresponding blogpost is to provide a deeper insight into the intuitions behind the use cases of multi-scale convolutional
+The goal of this repo and its corresponding blogpost [Analysis and Applications of Multi-Scale CNN Feature Maps](https://medium.com/@mohammadrezasanatkar/analysis-and-applications-of-multi-scale-cnn-feature-maps-a6804bbac8)is to provide a deeper insight into the intuitions behind the use cases of multi-scale convolutional
 feature maps in the recent proposed CNN architectures for variety of vision tasks. Therefore, this project can be treated as a tutorial to learn more
 about how different types of layers impact the spatial scales and receptive fields of feature maps. Also, this repo could be used by those engineers and
 researchers that are involved in designing CNN architectures and are tired of blind trial and error of which feature maps to choose from a CNN backbone
